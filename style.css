@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    text-align: center;
+    font-size: 2dvh;
+}
+
+#title {
+    background-color: #ffb300;
+}
+
+#chinese_word {
+    margin-top: 30px;
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 120px;
+}
+
+#pin_yin {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 50px;
+}
+
+#meaning {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 40px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#speakBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
