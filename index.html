@@ -8,13 +8,21 @@
     <title>🐼🍃คำศัพท์ภาษาจีนจ้า</title>
 </head>
 <body>
-    <div id="speakBtn">🔊</div>
+    <div id="speakBtn" onclick="playSound()">🔊</div>
+    <div id="nav">
+        <a href="wordlist.html">[wordlist]</a>
+        <a href="https://github.com/warut92/random-hsk">[about]</a>
+    </div>
     <div id="chinese_word">漂亮</div>
     <div id="pin_yin">piàoliang</div>
     <div id="meaning">pretty</div>
     <button onclick="random()">next</button>
+    <div id="opt">
+        <a id="hide" href="#" onclick="hide()">[hide: none]</a>
+        <a id="soundOpt" href="#" onclick="soundOpt()">[sound: manual]</a>
+    </div>
     <script src="wordlist.js"></script>
-    <script src="app.js"></script>
+    <script src="flashcard.js"></script>
 </body>
 
 </html>

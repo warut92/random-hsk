@@ -40,3 +40,7 @@ button {
     background: none;
     border: none;
 }
+
+#nav {
+    margin-top: 10px;
+}
